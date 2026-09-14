@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f3e7df;
+    color: #4a3b35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 25px;
+}
+
+.kartu-profil {
+    background-color: #fffaf7;
+    border-radius: 22px;
+    padding: 35px;
+    max-width: 520px;
+    width: 100%;
+    border: 2px solid #e8cfc3;
+    
+}    
+
+h1 {
+    font-size: 30px;
+    color: #9b5f50;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    color: #a77b70;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-size: 17px;
+    color: #9b5f50;
+    margin: 22px 0 9px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+ul {
+    padding-left: 15px;
+    line-height: 1.7;
+}
+
+.kontak {
+    margin-top: 25px;
+    padding: 14px;
+    background: #f7c8aff6;
+    border-radius: 12px;
+    font-size: 14px;
+    color: #5c4942;
+
+}
+    a {
+    color: #9b5f50;
+    text-decoration: none;
+    font-weight: bold;
+}
+    a:hover {
+    text-decoration: underline;}
+
+    .kartu-profil:hover {  border-color: #c58b7d;  transition: border-color 0.3s ease;
+
+}
+.instagram {
+    margin-top: 25px;
+    padding: 14px;
+    background: #f7c8aff6;
+    border-radius: 12px;
+    font-size: 14px;
+    color: #5c4942;
+}

@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e8f0e6;
+    color: #35443a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 25px;
+}
+
+.kartu-profil {
+    background-color: #fafcf8;
+    border-radius: 24px;
+    padding: 35px;
+    max-width: 390px;
+    width: 100%;
+    border: 2px solid #b7cbb5;
+    
+}    
+
+h1 {
+    font-size: 27px;
+    color: #496653;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    color: #718879;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-size: 16px;
+    color: #496653;
+    margin: 22px 0 9px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+ul {
+    padding-left: 14px;
+    line-height: 1.7;
+}
+
+.kontak {
+    margin-top: 25px;
+    padding: 14px;
+    background: #dce8d9;
+    border-radius: 12px;
+    font-size: 14px;
+    color: #35443a;
+
+}
+    a {
+    color: #496653;
+    text-decoration: none;
+    font-weight: bold;
+}
+    a:hover {
+    text-decoration: underline;}
+
+    .kartu-profil:hover {  border-color: #7f9b82;  transition: border-color 0.3s ease;
+
+}
+.instagram {
+    margin-top: 15px;
+    padding: 14px;
+    background: #dce8d9;
+    border-radius: 12px;
+    font-size: 14px;
+    color: #35443a;
+}
